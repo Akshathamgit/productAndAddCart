@@ -1,0 +1,150 @@
+.cart-items {
+    margin: 30px auto;
+    width:50%;
+    background-color:gray;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.heading{
+    color: darkolivegreen;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+.cart-empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+.img-item{
+    width: 100px;
+    height: auto;
+    border: 2px solid white;
+    margin-right: 10px;
+}
+
+.cart-list-item{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5%;
+
+}
+
+.cart-item-price{
+    
+    padding-left: 50px;
+}
+
+.cart-item-name,
+.cart-item-fun{
+    width: 25%;
+    /* align-items: center;
+    height: 10%;
+    padding-right: 100px;
+    justify-content: center; */
+    
+
+}
+.cart-item-add, 
+.cart-item-remove{
+    width:30px ;
+    margin-right: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+
+.cart-item-add{
+    background-color: green;
+    
+    
+}
+.cart-item-remove{
+    background-color: darkgoldenrod;
+}
+
+.cart-item-add:active{
+    transform: translateY(1.2px);
+   
+}
+
+.cart-item-remove:active{
+    transform: translateY(1.2px);
+    
+}
+
+.cart-item-total-price-name{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 2px solid black;
+ 
+
+
+}
+
+
+
+.cart-item-total-price{
+    display: flex;
+    padding-left: 65%;
+    
+    
+}
+
+
+
+.btn-clear:hover {
+    background-color: darkblue;
+}
+
+.item-clear{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
